@@ -4,7 +4,7 @@ Repository for the assets used during the Southworks brown bag OWIN talk.
 If you'd like to use any of the assets feel free to do it. If you get the chance, let me know so I know that this is being used.
 
 ##Setup
-1. Install Katana, for example using Chocolatey `cinst Katana –pre`.
+1. Install Katana, for example using Chocolatey `cinst OwinHost –pre`.
 1. Open the **Owin.Sample.sln** solution using Visual Studio.
 1. Configure the **Owin.Sample** project startup settings using:
 	* Start external program: Path to OwinHost.exe (C:\Chocolatey\lib\OwinHost.1.1.0-beta2\tools\OwinHost.exe)
@@ -66,6 +66,8 @@ If you'd like to use any of the assets feel free to do it. If you get the chance
 1. F12 in **UseIpFiltering** method.
 
 	> Open [link](http://www.asp.net/web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role) and show **Configure Web API for Self-Host** as an example of Framework with OWIN adapter.
+
+1. F5 in Visual Studio. Browse to localhost:8080.
 	
 ##Resources
 * http://weblogs.asp.net/pglavich/archive/2013/04/05/owin-katana-and-getting-started.aspx
