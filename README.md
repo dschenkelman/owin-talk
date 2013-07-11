@@ -63,6 +63,12 @@ If you'd like to use any of the assets feel free to do it. If you get the chance
 	> Bring up another convention point, **Startup** class name and **Configuration** method name.
 
 1. Walk through **Configuration** method.
-1. F12 in UseIpFiltering.
+1. F12 in **UseIpFiltering** method.
 
 	> Open [link](http://www.asp.net/web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role) and show **Configure Web API for Self-Host** as an example of Framework with OWIN adapter.
+	
+##Resources
+* http://weblogs.asp.net/pglavich/archive/2013/04/05/owin-katana-and-getting-started.aspx
+* http://www.asp.net/aspnet/overview/owin-and-katana/an-overview-of-project-katana
+* http://owin.org/spec/owin-1.0.0.html
+* http://www.asp.net/web-api/overview/hosting-aspnet-web-api/host-aspnet-web-api-in-an-azure-worker-role
